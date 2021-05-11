@@ -1,0 +1,24 @@
+{
+  "name": "hmd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:sass": "node-sass sass/main.scss css/style.comp.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clew-bot/hmd.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/clew-bot/hmd/issues"
+  },
+  "homepage": "https://github.com/clew-bot/hmd#readme",
+  "dependencies": {
+    "node-sass": "^6.0.0"
+  }
+}
